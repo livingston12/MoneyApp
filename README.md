@@ -46,13 +46,13 @@
 
 ## :dart: About ##
 
-Describe your project
+This project is the copy to Cash app light. but with some screen, I create that for practice about vue native. 
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: You can register\
+:heavy_check_mark: The information if save in firebase\
+:heavy_check_mark: you can change your address information;
 
 ## :rocket: Technologies ##
 
@@ -72,7 +72,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/moneyapp
+$ git clone https://github.com/livingston12/moneyapp
 
 # Access
 $ cd moneyapp
