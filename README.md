@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-This project is the copy to Cash app light. but with some screen, I create that for practice about vue native. 
+This project is the copy to Cash app light. but with some screen, I create that for practicing about vue native. 
 
 ## :sparkles: Features ##
 
