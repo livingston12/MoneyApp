@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="MoneyApp" />
+  <img src="./.github/moneyApp.gif" alt="MoneyApp" />
 
   &#xa0;
 
@@ -50,8 +50,8 @@ This project is the copy to Cash app light. but with some screen, I create that 
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: You can register\
-:heavy_check_mark: The information if save in firebase\
+:heavy_check_mark: You can register;\
+:heavy_check_mark: The information if save in firebase;\
 :heavy_check_mark: you can change your address information;
 
 ## :rocket: Technologies ##
