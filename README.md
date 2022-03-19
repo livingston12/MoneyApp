@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/moneyApp.gif" alt="MoneyApp" />
+  <img src="https://github.com/livingston12/MoneyApp/blob/main/moneyApp.gif" alt="MoneyApp" />
 
   &#xa0;
 
