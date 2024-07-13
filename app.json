@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "moneyapp",
+    "slug": "moneyapp",
+    "version": "1.0.0",
+    "description": "<div align=\"center\" id=\"top\">    <img src=\"https://github.com/livingston12/MoneyApp/blob/main/moneyApp.gif\" alt=\"MoneyApp\" />",
+    "sdkVersion": "51.0.0",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "bundleIdentifier": "com.anonymous.moneyapp"
+      
+    }
+  }
+}

@@ -1,19 +1,14 @@
-/**
- * Metro configuration for React Native
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
-const { getDefaultConfig } = require("metro-config");
+const path = require('path');
+const { getDefaultConfig } = require('metro-config');
 
 module.exports = (async () => {
   const {
     resolver: { sourceExts }
   } = await getDefaultConfig();
+
   return {
     transformer: {
-      babelTransformerPath: require.resolve("./vueTransformerPlugin.js"),
+      babelTransformerPath: require.resolve('./vueTransformerPlugin.js'),
       getTransformOptions: async () => ({
         transform: {
           experimentalImportSupport: false,
@@ -22,7 +17,14 @@ module.exports = (async () => {
       })
     },
     resolver: {
-      sourceExts: [...sourceExts, "vue"]
-    }
+      sourceExts: [...sourceExts, 'vue'],
+      blacklistRE: /node_modules\/.*/
+    },
+    watchFolders: [path.resolve(__dirname, 'src')],
+    maxWorkers: 2,
+    watch: {
+      usePolling: false,
+      interval: 1000
+    },
   };
 })();
